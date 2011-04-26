@@ -29,7 +29,7 @@ public class XYDrawer implements Runnable
 			for(int i = 0; i < Math.min(x.getItemCount(),y.getItemCount()); ++i)
 			{
 				plot.add(x.getY(i),y.getY(i));
-				System.out.println("i:"+i+"\t"+x.getY(i)+"\t"+y.getY(i) + "\t@ "+i);
+//				System.out.println("i:"+i+"\t"+x.getY(i)+"\t"+y.getY(i) + "\t@ "+i);
 			}
 			main.xyCollection.removeAllSeries();
 			main.xyCollection.addSeries(plot);
